@@ -1,0 +1,10 @@
+name: helloworld
+arguments:
+  description: ""
+  releaseOptions:
+    enablePrereleases: true
+  reportingTeam: qf
+modules:
+  - name: github.com/getoutreach/stencil-template-base
+  - name: github.com/getoutreach/stencil-base
+  - name: github.com/getoutreach/stencil-circleci
